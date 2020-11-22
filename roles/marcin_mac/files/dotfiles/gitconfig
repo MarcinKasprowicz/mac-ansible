@@ -1,0 +1,13 @@
+[user]
+    name = Marcin Kasprowicz
+
+[core]
+    editor = code
+    excludesfile = ~/.gitignore_global
+
+[alias]
+    append = "!git add -A ; git commit --amend --no-edit -C HEAD"
+    rollback = "reset --soft HEAD~"
+    lga = "log --graph --oneline --all --decorate"
+    uncommit = "reset HEAD~"
+    unstage = 'reset HEAD --'

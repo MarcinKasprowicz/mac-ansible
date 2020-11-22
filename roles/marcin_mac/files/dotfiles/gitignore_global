@@ -22,7 +22,6 @@ Thumbs.db
 pip-wheel-metadata
 venv
 
-# Sublime stuff #
+# VS CODE #
 #################
-*.sublime-project
-*.sublime-workspace
+*.vscode

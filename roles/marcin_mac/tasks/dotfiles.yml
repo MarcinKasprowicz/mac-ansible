@@ -1,0 +1,20 @@
+- name: dotfiles dirs
+  file:
+    path: "~/.{{ item }}"
+    state: directory
+  loop:
+    - aws
+
+- name: dotfiles links
+  file:
+    src: "{{ ansible_env.PWD }}/roles/marcin_mac/files/dotfiles/{{ item }}"
+    path: "~/.{{ item }}"
+    state: link
+  loop:
+    - aws/config
+    - aws/credentials
+    - gitconfig
+    - gitignore_global
+    - zshenv
+    - zshrc
+    

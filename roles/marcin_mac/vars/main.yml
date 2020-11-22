@@ -1,0 +1,37 @@
+homebrew_taps: [heroku/brew, homebrew/cask-fonts]
+
+homebrew_package_removals: []
+
+homebrew_packages:
+  - convox
+  - git
+  - go
+  - heroku
+  - jenv
+  - jq
+  - nvm
+  - postgresql
+  - pyenv
+  - pypy
+  - python
+  - zsh
+  - zsh-autosuggestions
+  - zsh-syntax-highlighting
+
+homebrew_cask_packages:
+  - brave-browser
+  - docker
+  - firefox
+  - font-fira-code
+  - iina
+  - insomnia
+  - iterm2
+  - kap
+  - menumeters
+  - notion
+  - soundflower
+  - spotify
+  - steam
+  - tableplus
+  - visual-studio-code
+  - webtorrent
