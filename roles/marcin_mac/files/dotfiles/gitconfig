@@ -1,5 +1,8 @@
 [user]
-    name = Marcin Kasprowicz
+	name = marcin-kasprowicz
+
+[pull]
+    rebase = false
 
 [core]
     editor = code

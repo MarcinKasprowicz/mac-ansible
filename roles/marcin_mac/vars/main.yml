@@ -28,8 +28,9 @@ homebrew_cask_packages:
   - iterm2
   - kap
   - menumeters
+  - mkchromecast
   - notion
-  - soundflower
+  - slack
   - spotify
   - steam
   - tableplus

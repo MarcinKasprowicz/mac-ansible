@@ -15,6 +15,7 @@
     - aws/credentials
     - gitconfig
     - gitignore_global
+    - prettierrc
     - zshenv
     - zshrc
     
