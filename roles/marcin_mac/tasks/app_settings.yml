@@ -2,10 +2,6 @@
   debug:
     msg: "macos configuration"
 
-- name: vs code
-  debug:
-    msg: "vs code configuration"
-
 - name: iTerm2
   debug:
     msg: "iTerm2 configuration"

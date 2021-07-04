@@ -1,5 +1,6 @@
 [user]
 	name = marcin-kasprowicz
+    email = marcin.kasprowicz@schibsted.com
 
 [pull]
     rebase = false

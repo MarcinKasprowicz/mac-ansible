@@ -3,6 +3,7 @@ homebrew_taps: [heroku/brew, homebrew/cask-fonts]
 homebrew_package_removals: []
 
 homebrew_packages:
+  - awscli
   - convox
   - git
   - go
@@ -14,25 +15,26 @@ homebrew_packages:
   - pyenv
   - pypy
   - python
+  - terraform
+  - tfenv
+  - travis
   - zsh
   - zsh-autosuggestions
   - zsh-syntax-highlighting
 
 homebrew_cask_packages:
   - brave-browser
+  - discord
   - docker
+  - figma
   - firefox
   - font-fira-code
-  - iina
   - insomnia
   - iterm2
   - kap
   - menumeters
-  - mkchromecast
   - notion
   - slack
   - spotify
-  - steam
   - tableplus
   - visual-studio-code
-  - webtorrent
